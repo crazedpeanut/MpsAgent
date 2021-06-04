@@ -84,7 +84,7 @@ namespace Microsoft.Azure.Gaming.AgentInterfaces
         public string SecureDeviceAddress { get; set; }
 
         /// <summary>
-        /// Used by bumblelion's request party details
+        /// The thumbprint used for datagram based communication
         /// </summary>
         public string DtlsCertificateSha2Thumbprint { get; set; }
     }
