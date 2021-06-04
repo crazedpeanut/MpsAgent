@@ -82,5 +82,10 @@ namespace Microsoft.Azure.Gaming.AgentInterfaces
         /// Used by some legacy games such as Forza 5 for security handshake with the game client.
         /// </summary>
         public string SecureDeviceAddress { get; set; }
+
+        /// <summary>
+        /// Used by bumblelion's request party details
+        /// </summary>
+        public string DtlsCertificateSha2Thumbprint { get; set; }
     }
 }
